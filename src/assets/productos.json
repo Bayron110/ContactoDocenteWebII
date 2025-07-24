@@ -1,0 +1,43 @@
+{
+    "productos": [
+        {
+            "id": "ZP001",
+            "nombre": "Stride Urban Classic",
+            "descripcion": "Zapatillas urbanas con diseño minimalista y plantilla acolchada.",
+            "precio": 59.99,
+            "color": "Negro",
+            "genero": "Unisex",
+            "material": [
+                "Cuero sintético",
+                "Tela transpirable",
+                "Suela de goma"
+            ]
+        },
+        {
+            "id": "ZP002",
+            "nombre": "Stride Runner Pro",
+            "descripcion": "Calzado deportivo ideal para correr, con amortiguación avanzada.",
+            "precio": 72.50,
+            "color": "Azul",
+            "genero": "Masculino",
+            "material": [
+                "Malla",
+                "Espuma EVA",
+                "Suela antideslizante"
+            ]
+        },
+        {
+            "id": "ZP003",
+            "nombre": "Stride Elegant Step",
+            "descripcion": "Zapatos de tacón elegantes para eventos formales.",
+            "precio": 64.90,
+            "color": "Rojo vino",
+            "genero": "Femenino",
+            "material": [
+                "Charol",
+                "Plantilla acolchada",
+                "Tacón de 7cm"
+            ]
+        }
+    ]
+}

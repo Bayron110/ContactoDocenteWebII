@@ -1,0 +1,56 @@
+<!-- Carousel completo -->
+<div id="animation-carousel" class="relative w-full" data-carousel="static">
+    <!-- Carousel wrapper -->
+    <div class="relative h-56 md:h-96 overflow-hidden rounded-lg">
+        <!-- Item 1 -->
+        <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
+            <img [src]="img1" class="w-full h-full object-cover" alt="Imagen 1">
+        </div>
+        <!-- Item 2 -->
+        <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
+            <img [src]="img2" class="w-full h-full object-cover" alt="Imagen 2">
+        </div>
+        <!-- Item 3 (activo) -->
+        <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item="active">
+            <img [src]="img3" class="w-full h-full object-cover" alt="Imagen 3">
+        </div>
+        <!-- Item 4 -->
+        <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
+            <img [src]="img4" class="w-full h-full object-cover" alt="Imagen 4">
+        </div>
+        <!-- Item 5 -->
+        <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
+            <img [src]="img5" class="w-full h-full object-cover" alt="Imagen 5">
+        </div>
+    </div>
+
+    <!-- Botón anterior -->
+    <button type="button"
+        class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-prev>
+        <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M5 1 1 5l4 4" />
+            </svg>
+            <span class="sr-only">Anterior</span>
+        </span>
+    </button>
+
+    <!-- Botón siguiente -->
+    <button type="button"
+        class="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+        data-carousel-next>
+        <span
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70">
+            <svg class="w-4 h-4 text-white dark:text-gray-800" xmlns="http://www.w3.org/2000/svg" fill="none"
+                viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="m1 9 4-4-4-4" />
+            </svg>
+            <span class="sr-only">Siguiente</span>
+        </span>
+    </button>
+</div>
