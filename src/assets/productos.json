@@ -3,41 +3,74 @@
         {
             "id": "ZP001",
             "nombre": "Stride Urban Classic",
-            "descripcion": "Zapatillas urbanas con diseño minimalista y plantilla acolchada.",
             "precio": 59.99,
-            "color": "Negro",
-            "genero": "Unisex",
-            "material": [
-                "Cuero sintético",
-                "Tela transpirable",
-                "Suela de goma"
-            ]
+            "imagen": "https://paylessec.vtexassets.com/arquivos/ids/460782/198917_1.jpg?v=638622204822870000"
         },
         {
             "id": "ZP002",
             "nombre": "Stride Runner Pro",
-            "descripcion": "Calzado deportivo ideal para correr, con amortiguación avanzada.",
-            "precio": 72.50,
-            "color": "Azul",
-            "genero": "Masculino",
-            "material": [
-                "Malla",
-                "Espuma EVA",
-                "Suela antideslizante"
-            ]
+            "precio": 72.5,
+            "imagen": "https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_600,h_600/global/389422/14/sv04/fnd/PNA/fmt/png/Tenis-Stride"
         },
         {
             "id": "ZP003",
             "nombre": "Stride Elegant Step",
-            "descripcion": "Zapatos de tacón elegantes para eventos formales.",
-            "precio": 64.90,
-            "color": "Rojo vino",
-            "genero": "Femenino",
-            "material": [
-                "Charol",
-                "Plantilla acolchada",
-                "Tacón de 7cm"
-            ]
+            "precio": 64.9,
+            "imagen": "https://m.media-amazon.com/images/I/71xYt7txHcL._UY900_.jpg"
+        },
+        {
+            "id": "ZP004",
+            "nombre": "Stride ChillWalk",
+            "precio": 45.0,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRpTtgr75qdcEFPoyh5elp2bw4YPVGSxwnhQ&s"
+        },
+        {
+            "id": "ZP005",
+            "nombre": "Stride RetroWave",
+            "precio": 68.3,
+            "imagen": "https://m.media-amazon.com/images/I/51a+xzD8lPL._UY900_.jpg"
+        },
+        {
+            "id": "ZP006",
+            "nombre": "Stride TerraGrip",
+            "precio": 79.2,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvD36CHrUGZZ3FgOpcnZvIvCHePgknn64QDg&s"
+        },
+        {
+            "id": "ZP007",
+            "nombre": "Stride Moonlight Slip",
+            "precio": 52.99,
+            "imagen": "https://m.media-amazon.com/images/I/41miBwrJuNL._AC_.jpg"
+        },
+        {
+            "id": "ZP008",
+            "nombre": "Stride Classic Loaf",
+            "precio": 58.45,
+            "imagen": "https://paylessec.vtexassets.com/arquivos/ids/460782-450-450?v=638622204822870000&width=450&height=450&aspect=true"
+        },
+        {
+            "id": "ZP009",
+            "nombre": "Stride Fusion Track",
+            "precio": 70.0,
+            "imagen": "https://www.niviasports.com/cdn/shop/files/2B0A9069.jpg?v=1707462840"
+        },
+        {
+            "id": "ZP010",
+            "nombre": "Stride BoldEase",
+            "precio": 66.75,
+            "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9DRz8PLUYJYWmXI8EhY3F2I4Zn-s8xFK1lQ&s"
+        },
+        {
+            "id": "ZP011",
+            "nombre": "Stride Neo Flex",
+            "precio": 74.99,
+            "imagen": "https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg"
+        },
+        {
+            "id": "ZP012",
+            "nombre": "Stride Ultra Light",
+            "precio": 61.25,
+            "imagen": "https://images.pexels.com/photos/19090/pexels-photo.jpg"
         }
     ]
 }
