@@ -2,16 +2,16 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { Producto } from './producto';
+import { AgotadoDirective } from './Agotado'; 
 
 @Component({
   selector: 'app-tabla-producto',
   standalone: true,
-  imports: [CommonModule, HttpClientModule],
+  imports: [CommonModule, HttpClientModule, AgotadoDirective],
   templateUrl: './tabla-producto.component.html',
   styleUrl: './tabla-producto.component.css'
 })
 export class TablaProductoComponent implements OnInit {
-
   productos: Producto[] = [];
 
   constructor(private http: HttpClient) {}

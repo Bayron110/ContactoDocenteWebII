@@ -4,15 +4,17 @@
     <div class="relative h-56 md:h-96 overflow-hidden rounded-lg">
         <!-- Item 1 -->
         <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
-            <img [src]="img1" class="w-full h-full object-cover object-center" alt="Imagen 1">
+            <img [src]="img1" [class]="img1" alt="Imagen 1">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
             <img [src]="img2" class="w-full h-full object-cover object-center" alt="Imagen 2">
         </div>
         <!-- Item 3 (activo) -->
+        <div class="">
         <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item="active">
             <img [src]="img3" class="w-full h-full object-cover object-center" alt="Imagen 3">
+        </div>
         </div>
         <!-- Item 4 -->
         <div class="hidden duration-300 ease-in-out w-full h-full" data-carousel-item>
