@@ -1,0 +1,24 @@
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade {
+    animation: fade 0.5s ease-in-out;
+}
+
+/* Personalización para el mensaje de error */
+.error-message {
+    color: #f87171;
+    /* rojo claro */
+    font-size: 0.875rem;
+    margin-top: 1rem;
+    text-align: center;
+}
