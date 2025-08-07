@@ -11,6 +11,12 @@
       "nombre": "Juan",
       "correo": "Juan123@hotmail.com",
       "contrasena": "Juan123"
+    },
+    {
+      "id": "251c",
+      "nombre": "Pedro",
+      "correo": "pedro@gmail.com",
+      "contrasena": "123456789"
     }
   ]
 }
